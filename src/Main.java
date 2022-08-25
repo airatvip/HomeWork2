@@ -62,7 +62,7 @@ public class Main {
         // Задача 8
         var totalWorkingHours = 640;
         var hourForEmployee = 8;
-        System.out.println(" Всего работников в компании " +(totalWorkingHours / hourForEmployee) + " человек");
+        System.out.println(" Всего работников в компании " + (totalWorkingHours / hourForEmployee) + " человек");
         var totalEmployees = totalWorkingHours / hourForEmployee;
         totalEmployees += 94;
         System.out.println( " Если в компании работает " + totalEmployees + " человек, то всего " + ( totalEmployees * hourForEmployee ) + " часа работы может быть" +
